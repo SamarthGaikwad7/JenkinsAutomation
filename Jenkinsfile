@@ -27,5 +27,10 @@ pipeline {
                 echo "This is 5th stage"
             }
         }
+        tage('sixth') {
+            steps {
+                echo "This is 6th stage"
+            }
+        }
     }
 }
